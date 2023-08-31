@@ -6,7 +6,7 @@ public class MainClass {
 
     public static void main(String[] args) {
 
-         boolean i = true;
+        boolean i = true;
         Scanner sc = new Scanner(System.in);
 
         InsertClass inst = new InsertClass();
@@ -55,5 +55,6 @@ public class MainClass {
 
             }
         }
+        sc.close();
     }
 }

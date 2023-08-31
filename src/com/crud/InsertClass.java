@@ -17,6 +17,8 @@ public class InsertClass {
 
     public void saveData() {
 
+        System.out.println(con+"\n\n\n");
+
         System.out.println("\t\t\tINSERT A STUDENT RECORDS : \n");
         System.out.println("Enter Student Roll Number :");
         rollno = sc.nextInt();
